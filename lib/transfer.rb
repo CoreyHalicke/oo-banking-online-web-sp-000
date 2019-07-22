@@ -21,5 +21,6 @@ class Transfer
       receiver.balance += @amount
       @status = "complete"
     end
+      @status = "rejected"
   end
 end
