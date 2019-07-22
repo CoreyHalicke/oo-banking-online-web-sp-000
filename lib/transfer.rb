@@ -8,6 +8,6 @@ class Transfer
   end
 
   def valid?
-    pry
+    binding.pry
   end
 end
