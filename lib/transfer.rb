@@ -23,7 +23,6 @@ class Transfer
       receiver.balance += @amount
       @status = "complete"
       @@transaction << self
-
     end
   end
 end
